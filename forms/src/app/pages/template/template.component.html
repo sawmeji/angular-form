@@ -1,0 +1,20 @@
+<h3>Template Driven Form</h3>
+
+<div class="row mt-3">
+
+    <ul class="nav nav-pills ">
+        <li class="nav-item">
+            <a [routerLink]="['top']" routerLinkActive="active" class="nav-link">Using Form</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['group']" routerLinkActive="active" class="nav-link">Form Validation</a>
+        </li>
+        <li class="nav-item">
+            <a [routerLink]="['bind']" routerLinkActive="active" class="nav-link">Form Data Binding</a>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-3">
+        <router-outlet></router-outlet>
+    </div>
+</div>
